@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "269055d0-61f8-4f6a-b96e-96137abe0017",
+  "alias": "NewcomersWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "supportsThemeVariants": true,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f71",
+    "group": { "default": "Flowr" },
+    "title": { "default": "New Employees" },
+    "description": { "default": " " },
+    "officeFabricIconFontName": "PeopleAdd",
+    "properties": {
+      "maxItems": 3,
+      "title": "New Employees"
+    }
+  }]
+}

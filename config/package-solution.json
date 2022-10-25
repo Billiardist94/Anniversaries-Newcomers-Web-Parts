@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "new-web-part-client-side-solution",
+    "id": "0a41abc1-2f79-46e5-a033-55e07fc3e6cb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "new-web-part description"
+      },
+      "longDescription": {
+        "default": "new-web-part description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "new-web-part Feature",
+        "description": "The feature that activates elements of the new-web-part solution.",
+        "id": "ff731003-b47b-4882-9774-f5fa8cd0e1fc",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/new-web-part.sppkg"
+  }
+}

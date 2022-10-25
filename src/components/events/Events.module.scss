@@ -1,0 +1,81 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.item{
+  // font-family: 'ProximaNova';
+
+  margin: 0px 10px 10px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  width: 360px;
+  
+  &:hover{
+    border: 1px solid rgb(237, 235, 233);
+    cursor: pointer !important;
+  }
+
+  .date{
+    margin: auto 14px auto 0;
+    height: 62px;
+    width: 62px;
+    border: 1px solid rgb(237, 235, 233);
+    color: #323130;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .month {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      padding-top: 10px;
+      align-items: center;
+      font-size: 12px;
+      text-transform: capitalize;
+    }
+
+    .divider{
+      width: 70%;
+      border-bottom: 1px solid;
+    }
+
+    .secondMonth{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      padding-bottom: 10px;
+      align-items: center;
+      font-size: 12px;
+      text-transform: capitalize;
+    }
+
+    .day{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      padding-bottom: 10px;
+      align-items: center;
+      font-size: 21px;
+      font-weight: 600;
+    }
+  }
+
+  .text{
+    .title{
+      width: 100%;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+    
+    .category{
+      width: 100%;
+      font-size: 12px;
+    }
+
+    .time{
+      width: 100%;
+      font-size: 12px;
+    }
+  }
+}

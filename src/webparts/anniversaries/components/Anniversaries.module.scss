@@ -1,0 +1,75 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.anniversaries {
+
+  .items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .item{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-width: 360px;
+      border-bottom: 1px solid;
+      // border-bottom: 1px solid #edebe9;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+  
+      .anniv{
+        display: flex;
+        flex-wrap: wrap;
+        width: 65px;
+        justify-content: center;
+        position: relative;
+
+        .medal{
+          width: 65px;
+        }
+
+        .number{
+          font-weight: 600;
+          position: absolute;
+          font-size: 18px;
+          top: 18%;
+        }
+  
+        .text{
+          font-weight: 600;
+          position: absolute;
+          font-size: 10px;
+          bottom: 13px;
+        }
+      }
+    }
+  }
+
+  
+
+  .spinner{
+    margin-top: 20px;
+    margin: 20px;
+  }
+
+  .noUsers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+    .iconRow{
+      width: 100%;
+      justify-content: center;
+      display: flex;
+      font-size: 24px;
+    }
+
+    .row{
+      width: 100%;
+      justify-content: center;
+      display: flex;
+    }
+  }
+}

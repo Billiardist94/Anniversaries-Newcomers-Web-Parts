@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "6ea0877b-16fa-427b-a04e-e812b26dc009",
+  "alias": "AnniversariesWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Flowr" },
+    "title": { "default": "Work Anniversaries" },
+    "description": { "default": "Anniversaries description" },
+    "officeFabricIconFontName": "Balloons",
+    "properties": {
+      "description": "Work Anniversaries",
+      "range": "Month",
+      "maxItems": 3,
+      "title": "Work Anniversaries"
+    }
+  }]
+}
